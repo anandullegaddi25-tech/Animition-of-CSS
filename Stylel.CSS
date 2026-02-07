@@ -1,0 +1,67 @@
+ /* body { 
+    background-color: #f50606;
+ } */
+
+ * {
+     margin: 0;
+     size: 0;
+     border: 10px;
+ }
+
+ h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(227, 14, 14);
+    border: rgb(10, 236, 37);
+    margin: 10px;
+    background-color: #f2f3f7;
+    gap: 20px;
+ }
+
+ h1:hover {
+    font-size: 50px;
+ }
+
+@keyframes buttonanimation {
+   form {
+    background-color: #16def9;
+    padding: 20px;
+    font-size: 10px;
+    color: aqua;
+
+   } 
+
+to {
+    background-color: rgb(193, 167, 34);
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(9, 249, 177);
+}
+
+}
+ .button {
+
+    text-align: center;
+    color: rgb(230, 11, 11) 50px;
+    background-color: #0c37d3;
+    text-decoration: none;
+    color: hsl(192, 38%, 97%);
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 200px;
+    animation-name: buttonanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border: red;
+    gap: 20px;
+    row-gap: 20px;
+    border-bottom: 20px;
+    border-top: 100px;
+ }
+
+ .button:hover {
+    background-color: rgb(237, 37, 47);
+    border: 2px solid #5ba6df00;
+    background-repeat: rgba(177, 28, 28, 0.564);
+}
